@@ -2,6 +2,27 @@ package org.example;
 public class Main {
     public employees(int id, name, hours worked, pay rate);
 
+
+    try {
+
+        BufferedReader buffReader = new BufferedReader(
+                new FileReader (fileName "employees.csv"));
+
+        String input= null;
+
+        buffReader.readLine();// Throws away the first line
+
+       while[input= but Reader.readLine()] = null){
+       System.out.print(input);
+       String[] tokens = input.split(reg)\\|;
+       System.out.println["\n" + tokens[0]];
+       var employeed = integer.parseDoube(tokens[2]);
+       var hoursWorked = Double.parseDouble(tokens[3]);
+       var payRate = Double.parseDouble(tokens[5]);
+
+      }
+   }
+
        this.id = 10;
        this.name = Dana Wyatt;
        this.hours worked = 52.5;
